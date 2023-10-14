@@ -20,6 +20,7 @@ public class Account {
 
     private String agency;
 
+
     @Column(precision = 13, scale = 2)
     private BigDecimal balance;
 
